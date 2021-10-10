@@ -1,0 +1,20 @@
+from prettytable import PrettyTable
+my_table = PrettyTable(["student name","class","section","percentage"])
+
+my_table.add_row(["farhan","7","c","100%"])
+my_table.add_row(["farhan","7","c","100%"])
+my_table.add_row(["farhan","7","c","100%"])
+my_table.add_row(["farhan","7","c","100%"])
+my_table.add_row(["farhan","7","c","100%"])
+my_table.add_row(["farhan","7","c","100%"])
+my_table.add_row(["farhan","7","c","100%"])
+my_table.add_row(["farhan","7","c","100%"])
+my_table.add_row(["farhan","7","c","100%"])
+my_table.add_row(["farhan","7","c","100%"])
+my_table.add_row(["farhan","7","c","100%"])
+my_table.add_row(["farhan","7","c","100%"])
+my_table.add_row(["farhan","7","c","100%"])
+my_table.add_row(["farhan","7","c","100%"])
+my_table.add_row(["farhan","7","c","100%"])
+
+print(my_table)
